@@ -1,0 +1,163 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+.navbar {
+  display:flex;
+  justify-content:flex-end;
+}
+nav ul{
+  display:flex;
+  flex-direction:row;
+}
+nav li {
+  list-style: none;
+  margin-left: 2rem;
+  margin-right:1rem;
+}
+li:first-child{
+  margin-right:0;
+}
+a {
+  text-decoration:none;
+  color:black;
+  font-size:.9rem;
+}
+nav a:hover,
+nav a:focus{
+  border-bottom:1px solid;
+}
+.button {
+  margin-left:1rem;
+  color: white;
+  background-color:blue;
+  margin-top:9px;
+  height: 35px;
+  width:80px;
+  border:none;
+  border-radius: 5px;
+}
+.button:hover{
+  background-color:#1a71db;
+}
+img {
+  display:block;
+  margin:0 auto;
+  border-radius: 60px;
+}
+
+/*#wrapper .text{
+  position:relative;
+  bottom:30px;
+  left:0px;
+  visibility:hidden;
+  font-size:.8rem;
+}
+#wrapper:hover .text{
+   visibility:visible;
+}*/
+input{
+  width:40%;
+  height:45px;
+  display:block;
+  margin:0 auto;
+  border-radius:30px;
+  border: 1px solid #a9aaab;
+  box-shadow:0 5px 5px rgba(0, 0, 0, 0.19);
+}
+@media(max-width:600px){
+  input {
+    width:70%;
+  }
+}
+.buttons {
+margin-left:1.5rem;
+  height:35px;
+  width:160px;
+margin-top:2rem;
+  border-style:none;
+  border-radius:5px;
+}
+.search-button{
+  margin-left:0;
+}
+.buttons:hover {
+  border:1px solid #a9aaab;
+}
+.okay-buttons{
+ display:flex;
+  justify-content:center;
+}
+
+.country{
+  display:flex;
+  align-items:center;
+  height:40px;
+  width:100%;
+  margin-top:10rem;
+   background-color:rgba(238, 241, 238, 1);
+ border:1px solid rgba(182, 195, 182, 0.2);
+}
+.paragraph-footer{
+  margin-left:2.4rem;
+}
+@media (max-width: 500px){
+  .paragraph-footer {
+    margin:0 auto;
+  }
+}
+.links{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  height:40px;
+  width:100%;
+  background-color:rgba(238, 241, 238, 1);
+   border:1px solid rgba(182, 195, 182, 0.2);
+}
+.links li{
+  list-style:none;
+}
+.list-1{
+  display:flex;
+ margin-right:2rem;
+}
+li:first-child{
+  margin-right:2rem;
+}
+.list-item{
+  margin-right:2rem;
+}
+.list-2{
+  display:flex;
+  
+}
+.second-list-item{
+  margin-left:2rem;
+}
+@media screen and (max-width:500px){
+  .list-1{
+    padding:0;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .list-2{
+   padding:0;
+   display:flex;
+    flex-wrap:wrap;
+  }
+  .links{
+    height:90px;
+  }
+}
+@media screen and (max-width:500px){
+  .list-item{
+   margin-right:0.5rem;
+   margin-top:0;
+  }
+}
+.mock{
+  font-family:cursive;
+  text-align:center;
+}
