@@ -1,0 +1,40 @@
+ <html>
+ <body>
+  <nav class="navbar">
+  <ul>
+    <li><a href="#"> Gmail</a></li>
+    <li><a href="#"> Immagini</a></li>
+  </ul>
+  <button class="button">Accedi</button>
+</nav>
+  <main>
+  <img src="http://static.leonardo.it/wp-content/uploads/sites/12/2014/09/google-logo.jpg" width=350px class="hover">
+ <!-- <p class="text">80° anniversario della nascita di Sylvia Plath</p>-->
+  <input type="text" placeholder="Cerca">
+<div class="okay-buttons">
+     <button class="buttons search-button">Cerca con Google</button>
+        <button class="buttons button-2">Mi sento fortunato</button>
+  </div>
+  </main>
+  <div class="footer">
+    <footer class="country">
+      <p class="paragraph-footer">Italia</p>
+    </footer>
+    <footer class="links">
+      <ul class="list-1">
+        <li class="list-item"><a href="#"> Pubblicità</a> </li>
+        <li class="list-item"><a href="#">Soluzioni aziendali</a></li>
+        <li class="list-item"><a href="#">Chi siamo</a></li>
+        <li class="list-item"><a href="#">Come funziona la Ricerca</a></li>
+      </ul>
+      <ul class="list-2">
+        <li class="second-list-item"><a href="#">Privacy</a></li>
+        <li class="second-list-item"><a href="#">Termini</a></li>
+        <li class="second-list-item"><a href="#">Impostazioni</a></li>
+      </ul>
+  </div>
+    <p class="mock"><em>This is a mock google page.<br>
+      Questa è una pagina fac-simile.
+      </em></p>
+</body>
+</html>
